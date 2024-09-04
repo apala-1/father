@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Father's Day</title>
+    <link rel="stylesheet" href="PageTwoStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <style>
+        /* Hide the button initially */
+        #buttonDiv {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="text"></div>
+    <div id="buttonDiv">
+        <a href="pageThree.html"><button>Andd ??</button></a>
+    </div>
+    <script type="text/javascript">
+        var i = 0, text;
+        text = "Helooooo..... WELP it's FATHER'S DAY.";
+
+        function typing() {
+            if (i < text.length) {
+                document.getElementById('text').innerHTML += text.charAt(i);
+                i++;
+                setTimeout(typing, 200);
+            } else {
+                // Show the button once typing is done
+                document.getElementById('buttonDiv').style.display = "block";
+            }
+        }
+
+        typing();
+    </script>
+</body>
+</html>

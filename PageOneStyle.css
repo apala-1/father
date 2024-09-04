@@ -1,0 +1,56 @@
+html, body {
+    height: 100%; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.background {
+    background-color: #C86A92; /* Background color */
+}
+
+.parent {
+    display: flex;
+    align-items: center;
+    margin: 10px 60px 0px 60px; /* Add padding to ensure elements don't touch the edges */
+    box-sizing: border-box; /* Include padding in width/height calculations */
+}
+
+.blobby {
+    height: 60vh; /* Adjust height to fit within parent */
+    margin-right: 20px; /* Space between image and text */
+}
+
+.hi {
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-size: 6rem;
+}
+
+.down {
+    display: flex;
+    align-items: center;
+    margin: -20px 60px 30px 60px;
+}
+
+.tex {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-size: 4rem;
+    transform: translateX(30px)translateY(-50px);
+}
+
+.shett {
+    background-color: #C86A92;
+    border: none; /* Remove border */
+    margin-left: 60px;
+    margin-top: 0px;
+    cursor: pointer;
+    transform: translateX(200px)translateY(-100px);
+}
+
+.fatherr {
+    height: auto; /* Adjust height to fit within container */
+    width: auto; /* Adjust width to fit within container */
+}
+
+  
