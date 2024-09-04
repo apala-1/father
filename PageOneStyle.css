@@ -1,7 +1,7 @@
 html, body {
     height: 100%; /* Full height of the viewport */
     margin: 0; /* Remove default margin */
-    overflow: hidden; /* Prevent scrolling */
+    overflow: scroll; /* Prevent scrolling */
 }
 
 .background {
